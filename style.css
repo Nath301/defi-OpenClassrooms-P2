@@ -42,6 +42,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: rgb(87,87,87);
 }
 .title{
     text-align: center;
@@ -57,13 +58,12 @@ h5{
 .activities{
     display: flex;
     margin-top: 30px;
+    max-width: 800px;
+    justify-content: space-between;
 
 }
 .box{
-    height: 120px;
-    width: 200px;
-    margin-left: 30px;
-    margin-right: 30px;
+    padding: 0 20px 0 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,9 +72,44 @@ h5{
     width: 70px;
 }
 .name{
-    font-weight: 100;
+    font-weight: 500;
+    font-size: 19px;
     text-transform: uppercase;
 }
 .about{
-    font-size: 11px;
+    font-size: 12px;
+    text-align: center;
+}
+.quote{
+    margin-top: 30px;
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+.text{
+    text-align: center;
+    font-size: 1.3em;
+}
+.author{
+    text-align: center;
+}
+footer{
+    background-color: #5b359d;
+    color: white;
+    padding-top: 10px;
+}
+.company{
+
+    text-align: center;
+}
+.foot-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+.social-logo{
+    width: 30px;
+    margin: 0 40px 0 40px;
 }
